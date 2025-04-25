@@ -31,13 +31,15 @@ const Hero = () => {
                     </h1>
                     <h1>Into Real Projects</h1>
                     <h1>that Deliver Results</h1>
-                    <p className={'text-white-50 md:text-xl relative pointer-events-none'}>
+                    <p className={'text-white-50 mt-6 md:text-xl relative pointer-events-none'}>
                         Hi, I'm Harshwardhan, a developer based in Kolhapur with a passion to code. Into Real Projects that Deliver Results
                     </p>
-                    <Button/>
+                    <Button className="text-2xl mt-6 md: w-80 md: h-16 w-60 h-12 font-light" id="button" text="See my Work"/>
                 </div>
             </div>
         </header>
+
+        
       </div>
     </section>
   )
