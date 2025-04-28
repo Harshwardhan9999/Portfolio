@@ -2,8 +2,26 @@ import React from 'react'
 import {words} from "../constants/index.js";
 import Button from "../components/Button.jsx";
 import HeroExperience from '../HeroModels/HeroExperience.jsx';
+import { useGSAP } from '@gsap/react';
+import gsap from 'gsap';
 
 const Hero = () => {
+
+  useGSAP(() => {
+    gsap.fromTo(".hero-text h1",
+      {
+        y: 50,
+        opacity: 0
+      },
+      {
+        y: 0,
+        opacity: 1,
+        stagger: 0.2,
+        duration: 1,
+        ease: "power2.inOut"
+      }
+    );
+  })
 
 
   return (
