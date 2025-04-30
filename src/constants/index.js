@@ -270,7 +270,7 @@ export {
     counterItems,
     expCards,
     expLogos,
-    testimonials,
+    testimonials,    
     socialImgs,
     techStackIcons,
     techStackImgs,
